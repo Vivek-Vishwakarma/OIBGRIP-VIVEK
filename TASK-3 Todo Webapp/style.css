@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(298deg, #c61e1e, #27c61e, #1e29c6);
+    background-size: 600% 600%;
+    background-repeat: no-repeat;
+    -webkit-animation: AnimationName 27s ease infinite;
+    -moz-animation: AnimationName 27s ease infinite;
+    animation: AnimationName 27s ease infinite;
+    height: 98vh;
+    width: 98vw;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+.heading{
+    text-align: center;
+    margin: 30px;
+}
+.inputDiv{
+    margin: 10px auto;
+    width: 70vw
+}
+.input{
+    width: 60vw !important;
+}
+.submitBtn{
+    height: 55px;
+    margin-left: 10px;
+    width: 55px;
+}
+.select{
+    width: 30vw;
+    margin: 10px auto;
+}
